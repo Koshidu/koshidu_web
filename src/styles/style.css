@@ -133,7 +133,7 @@ body.is-loaded .section {
   position: fixed;
   inset: 0;
   z-index: -4;
-  background-image: linear-gradient(rgba(5, 8, 20, 0.76), rgba(5, 8, 20, 0.92)), url("../assets/images/photo_2.jpg");
+  background-image: linear-gradient(rgba(5, 8, 20, 0.76), rgba(5, 8, 20, 0.92)), url("../assets/images/photo_3.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(0.6) brightness(0.9);
