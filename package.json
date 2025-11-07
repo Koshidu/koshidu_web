@@ -2,7 +2,7 @@
   "name": "koshidu-web",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://koshidu.github.io/koshidu_website",
+  "homepage": "https://Koshidu.github.io/koshidu_web",
   "type": "module",
 "scripts": {
   "dev": "vite",
