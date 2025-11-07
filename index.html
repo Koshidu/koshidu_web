@@ -24,9 +24,10 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <div class="page-backdrop" aria-hidden="true"></div>
     <header class="site-header">
       <div class="container">
-        <a class="brand" href="#hero">koshidu.dev</a>
+        <a class="brand" href="#hero">KOSHIDU.</a>
         <nav class="site-nav" aria-label="Primary">
           <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
             <span class="nav-toggle__bar"></span>
@@ -35,7 +36,7 @@
           <ul id="nav-list">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -48,34 +49,42 @@
       <section id="hero" class="section hero">
         <div class="container hero__content">
           <div class="hero__text">
-            <span class="eyebrow">Software Engineer</span>
+            <span class="eyebrow">Software Engineer · Designer · Lifelong Learner</span>
             <h1>Hi, I'm Koshidu Ayon Pietersz</h1>
             <p>
-              I build dependable software with a balance of engineering rigor and visual polish.
-              My focus is on crafting scalable architectures, human-friendly interfaces, and thoughtful developer experiences.
+              I’m a curious builder who loves transforming bold ideas into seamless digital experiences. From the first sketch to the final ship, I combine thoughtful design, precise engineering, and empathetic storytelling to create work that feels as good as it functions.
+            </p>
+            <p>
+              My mission is simple: craft modern, responsive, and user-friendly products that solve real-world problems while inviting people to explore, connect, and imagine what’s next.
             </p>
             <div class="hero__actions">
               <a class="button" href="#projects">View projects</a>
-              <a class="button button--ghost" href="#timeline">Career timeline</a>
+              <a class="button button--ghost" href="#education">Education</a>
             </div>
             <dl class="hero__highlights">
               <div>
-                <dt>Experience</dt>
-                <dd>7+ years building product platforms</dd>
+                <dt>Craft</dt>
+                <dd>End-to-end product design &amp; development</dd>
               </div>
               <div>
-                <dt>Specialty</dt>
-                <dd>Full-stack systems &amp; developer tooling</dd>
+                <dt>Approach</dt>
+                <dd>Curiosity, empathy, and continuous learning</dd>
               </div>
               <div>
-                <dt>Location</dt>
-                <dd>Remote-first, based in Colombo</dd>
+                <dt>Currently</dt>
+                <dd>Working as a software engineer</dd>
               </div>
             </dl>
           </div>
-          <div class="hero__visual" aria-hidden="true">
-            <div class="hero__orb"></div>
-            <div class="hero__rings"></div>
+          <div class="hero__visual">
+            <figure class="hero__portrait" aria-label="Portrait of Koshidu Ayon Pietersz">
+              <span class="hero__portrait-glow" aria-hidden="true"></span>
+              <span class="hero__portrait-ring hero__portrait-ring--outer" aria-hidden="true"></span>
+              <span class="hero__portrait-ring hero__portrait-ring--inner" aria-hidden="true"></span>
+              <span class="hero__portrait-frame" aria-hidden="true">
+                <img src="assets/images/photo_3.jpg" alt="" />
+              </span>
+            </figure>
           </div>
         </div>
       </section>
@@ -83,79 +92,62 @@
       <section id="about" class="section about">
         <div class="container about__grid">
           <div>
-            <h2>Engineering for resonance and reliability</h2>
+            <h2>Welcome to my world of code, creativity, and innovation</h2>
             <p>
-              I enjoy untangling complex problem spaces, designing resilient systems, and mentoring teams toward pragmatic, maintainable solutions. From product discovery to production hardening, I stay close to the details without losing sight of the narrative.
+              Technology captured my imagination the moment I realised how a few lines of code could grow into something powerful, interactive, and meaningful. That spark set me on a journey to explore how digital experiences can make everyday life better.
             </p>
-          </div>
-          <div class="about__pillars">
-            <article>
-              <h3>Systems thinking</h3>
-              <p>
-                Architecting modular platforms, designing APIs, and creating automation that keeps teams shipping quickly with confidence.
-              </p>
-            </article>
-            <article>
-              <h3>Experience design</h3>
-              <p>
-                Prototyping delightful user flows, bridging design and engineering, and polishing interfaces that feel intentional at every breakpoint.
-              </p>
-            </article>
-            <article>
-              <h3>Culture building</h3>
-              <p>
-                Facilitating inclusive engineering processes, enabling knowledge sharing, and elevating people through code reviews and pairing.
-              </p>
-            </article>
+            <p>
+              Today, I design and develop modern, responsive, and user-friendly applications. Whether it’s enhancing performance, refining storytelling through UI/UX, or building feature-rich mobile apps, I blend creativity with functionality to craft products that truly serve people.
+            </p>
+            <p>
+              I’m detail-oriented, curious, and driven to keep experimenting. I love diving into new tools, exploring design trends, and challenging myself to grow as both a creator and technologist. Great design, to me, is rooted in empathy, clarity, and purpose.
+            </p>
+            <p>
+              Beyond the screen, I value collaboration, lifelong learning, and translating complex ideas into intuitive solutions. Technology is the bridge between imagination and reality—and I’m here to build that bridge, one project at a time.
+            </p>
           </div>
         </div>
       </section>
 
-      <section id="timeline" class="section timeline">
+      <section id="education" class="section timeline">
         <div class="container">
           <header class="section__header">
             <span class="eyebrow">Journey</span>
-            <h2>Timeline</h2>
-            <p>The milestones shaping my craft and leadership.</p>
+            <h2>Education Timeline</h2>
+            <p>The formative chapters that shaped my love for technology and design.</p>
           </header>
-          <ol class="timeline__list">
+          <ol class="timeline__list timeline__list--education">
             <li>
               <div class="timeline__point"></div>
               <div class="timeline__content">
-                <time datetime="2023">2023 - Present</time>
-                <h3>Principal Engineer &middot; NovaForge Labs</h3>
+                <div class="timeline__heading">
+                  <div class="timeline__logo" aria-hidden="true">
+                    <img src="assets/images/cardiff.png" alt="Cardiff Metropolitan University logo" />
+                  </div>
+                  <div>
+                    <time datetime="2022">2022 - Present</time>
+                    <h3>Cardiff Metropolitan University</h3>
+                  </div>
+                </div>
                 <p>
-                  Leading the platform group delivering developer tooling that powers multi-team deployments. Drove a 30% reduction in lead time by implementing contract-first APIs and observability guardrails.
+                  Pursuing my degree in computing and software development, strengthening my expertise in web and app development, UI/UX design, and modern programming practices.
                 </p>
               </div>
             </li>
             <li>
               <div class="timeline__point"></div>
               <div class="timeline__content">
-                <time datetime="2020">2020 - 2023</time>
-                <h3>Staff Software Engineer &middot; AzureWave</h3>
+                <div class="timeline__heading">
+                  <div class="timeline__logo" aria-hidden="true">
+                    <img src="assets/images/spc.jpg" alt="St. Peter's College Colombo logo" />
+                  </div>
+                  <div>
+                    <time datetime="2010">2009 - 2022</time>
+                    <h3>St. Peter’s College, Colombo</h3>
+                  </div>
+                </div>
                 <p>
-                  Scaled a real-time analytics suite to millions of events per minute. Introduced feature flags, automated QA pipelines, and design systems that unified product surfaces.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="timeline__point"></div>
-              <div class="timeline__content">
-                <time datetime="2017">2017 - 2020</time>
-                <h3>Senior Software Engineer &middot; Lumenary</h3>
-                <p>
-                  Shipped cross-platform mobile and web experiences for fintech partners. Mentored junior engineers and shaped engineering hiring practices.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="timeline__point"></div>
-              <div class="timeline__content">
-                <time datetime="2015">2015 - 2017</time>
-                <h3>Associate Engineer &middot; Horizon Dev Studio</h3>
-                <p>
-                  Built internal tools and automation workflows, modernized legacy modules, and formed lasting foundations in testing discipline.
+                  Completed my school education with a strong foundation in technology, creativity, and problem-solving—where my fascination with computers and innovation first took root.
                 </p>
               </div>
             </li>
@@ -167,44 +159,95 @@
         <div class="container">
           <header class="section__header">
             <span class="eyebrow">Selected work</span>
-            <h2>Projects</h2>
-            <p>Representative projects spanning platforms, tooling, and experience design.</p>
+            <h2>Projects I’ve Worked On</h2>
+            <p>
+              A snapshot of the 85+ mobile applications and digital products I’ve delivered—each crafted to pair intuitive experiences with reliable engineering.
+            </p>
           </header>
           <div class="projects__grid">
             <article class="project-card">
-              <div class="project-card__badge">Platform</div>
-              <h3>Atlas Orchestrator</h3>
+              <div class="project-card__badge">Mobile · Android</div>
+              <h3>🐾 Nutripaws – Dog Nutrition App</h3>
               <p>
-                Multi-cloud deployment orchestrator with automated drift detection, staged rollouts, and developer-first observability dashboards.
+                A feature-rich Android companion for dog owners with product discovery, detailed nutrition guidance, authenticated shopping, and educational content built in Java with SQLite.
               </p>
               <ul class="tag-list">
-                <li>TypeScript</li>
-                <li>GraphQL</li>
-                <li>Terraform</li>
+                <li>Java</li>
+                <li>SQLite</li>
+                <li>Android Studio</li>
               </ul>
             </article>
             <article class="project-card">
-              <div class="project-card__badge">Product</div>
-              <h3>Pulse Canvas</h3>
+              <div class="project-card__badge">Mobile · Commerce</div>
+              <h3>🛍️ E-Commerce Mobile App</h3>
               <p>
-                Collaborative product discovery suite blending user journeys, analytics overlays, and live prototyping to speed alignment.
+                An Android shopping experience with sign-up, product catalog, cart, checkout, and in-app admin tooling so sellers can manage inventory on the go.
               </p>
               <ul class="tag-list">
+                <li>Java</li>
+                <li>SQLite</li>
+                <li>Material Design</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-card__badge">Web · Hospitality</div>
+              <h3>🍽️ Gallery Café Website</h3>
+              <p>
+                A full-stack restaurant platform with reservations, pre-orders, and order management, blending HTML, CSS, JavaScript, PHP, and SQL into a cohesive service hub.
+              </p>
+              <ul class="tag-list">
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-card__badge">Enterprise · Desktop</div>
+              <h3>💼 TechFix Procurement System</h3>
+              <p>
+                A C# and MySQL SOC-based procurement suite streamlining supplier onboarding, quoting, and inventory control for a computer repair business.
+              </p>
+              <ul class="tag-list">
+                <li>C#</li>
+                <li>MySQL</li>
+                <li>WinForms</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-card__badge">Mobile · Hospitality</div>
+              <h3>🛏️ LuxeVista Resort App</h3>
+              <p>
+                A polished resort booking app featuring room reservations, service scheduling, and profile management with a smooth, visual-first interface.
+              </p>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>SQLite</li>
+                <li>UX Motion</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-card__badge">Web · Marketplace</div>
+              <h3>🌐 Seller–Buyer Management</h3>
+              <p>
+                A PHP and SQL marketplace where sellers showcase work, negotiate orders, deliver final files, and admins track payments and progress.
+              </p>
+              <ul class="tag-list">
+                <li>PHP</li>
+                <li>SQL</li>
+                <li>Bootstrap</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-card__badge">Web · CRM</div>
+              <h3>⚙️ CRM System (MERN)</h3>
+              <p>
+                A modern CRM built on MongoDB, Express, React, and Node.js with role-based access, analytics dashboards, and responsive workflows for sales teams.
+              </p>
+              <ul class="tag-list">
+                <li>MongoDB</li>
+                <li>Express</li>
                 <li>React</li>
-                <li>WebGL</li>
-                <li>Storybook</li>
-              </ul>
-            </article>
-            <article class="project-card">
-              <div class="project-card__badge">Tooling</div>
-              <h3>EchoGuard CLI</h3>
-              <p>
-                Security-first developer CLI that automates dependency audits, threat modeling templates, and incident-ready runbooks.
-              </p>
-              <ul class="tag-list">
-                <li>Go</li>
-                <li>OpenAPI</li>
-                <li>GitHub Actions</li>
+                <li>Node.js</li>
               </ul>
             </article>
           </div>
@@ -251,10 +294,10 @@
             </p>
           </div>
           <div class="contact__actions">
-            <a class="contact__link" href="mailto:hello@koshidu.dev">hello@koshidu.dev</a>
+            <a class="contact__link" href="mailto:koshiduayon@gmail.com">koshiduayon@gmail.com</a>
             <ul class="social-list">
-              <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/koshidu-pietersz-889568320" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/Koshidu" target="_blank" rel="noreferrer">GitHub</a></li>
               <li><a href="https://twitter.com" target="_blank" rel="noreferrer">Twitter</a></li>
             </ul>
           </div>
